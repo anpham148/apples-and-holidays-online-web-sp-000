@@ -38,7 +38,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   # add the second argument to the memorial day array
   holiday_hash[:spring].each do |holiday_name, supply_array|
     supply_array << "Grill"
-    supply_array << "Table Cloth"
   end
   holiday_hash
 end
